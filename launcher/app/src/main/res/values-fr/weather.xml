@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wx_clear">Dégagé</string>
+    <string name="wx_partly">Éclaircies</string>
+    <string name="wx_cloudy">Nuageux</string>
+    <string name="wx_fog">Brouillard</string>
+    <string name="wx_drizzle">Bruine</string>
+    <string name="wx_rain">Pluie</string>
+    <string name="wx_snow">Neige</string>
+    <string name="wx_showers">Averses</string>
+    <string name="wx_snow_showers">Averses de neige</string>
+    <string name="wx_storm">Orage</string>
+</resources>
