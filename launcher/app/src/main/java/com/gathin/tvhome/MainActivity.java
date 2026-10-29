@@ -1012,6 +1012,8 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
     protected void onResume() {
         super.onResume();
         resumed = true;
+        HomeWeather.show(this, (TextView) findViewById(R.id.homeWeather), getString(R.string.weather_city),
+                getString(R.string.weather_lat), getString(R.string.weather_lon));
         // A festival that started or ended while Home was in the background: rebuild with or without it.
         if (festive != festival.active(LocalDate.now())) {
             recreate();
